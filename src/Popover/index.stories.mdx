@@ -1,0 +1,21 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+
+import Popover from '.';
+
+<Meta title="Popover" component={Popover} />
+
+# Popover
+
+<Preview>
+  <Popover
+    trigger={<button>Click Me</button>}
+    position="bottom"
+    alignment="start"
+    distance={4}
+    interactionMode="click"
+    isOpen={false}
+    disablePortal={false}
+  >
+    popover content
+  </Popover>
+</Preview>
